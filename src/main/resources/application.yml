@@ -10,7 +10,7 @@ spring:
     auto: true # Add @EnableAspectJAutoProxy.
     proxy-target-class: true # Whether subclass-based (CGLIB) proxies are to be created (true) as opposed to standard Java interface-based proxies (false).
 logging:
-  path: /gomeo2o/logs/${dubbo.application.name} #输出到磁盘目录
+  path: /mytest/logs/${dubbo.application.name} #输出到磁盘目录
 
 
 
