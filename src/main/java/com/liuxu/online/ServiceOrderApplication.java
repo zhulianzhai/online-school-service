@@ -10,10 +10,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @ComponentScan("com.liuxu.online")
 //@ImportResource({"classpath:/dubbo/dubbo-provider.xml"}) 
-public class MeidianServiceOrderApplication {
+public class ServiceOrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MeidianServiceOrderApplication.class, args);
+		SpringApplication.run(ServiceOrderApplication.class, args);
 		System.out.println("...............................................................");
 		System.out.println("..................Service starts successfully..................");
 		System.out.println("...............................................................");
