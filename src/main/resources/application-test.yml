@@ -2,21 +2,21 @@
 dubbo:
   registry:
     protocol: zookeeper #注册中心类型
-    address: 10.112.179.149:2181,10.112.179.150:2181,10.112.179.151:2181
+    address: url
   protocol: 
     name: dubbo
     port: 20880
 spring:
   datasource:
     order:
-      url: jdbc:mysql://10.115.4.16:3306/order?useUnicode=true&characterEncoding=utf8
+      url: jdbc:mysql://url:3306/order?useUnicode=true&characterEncoding=utf8
       username: mysql
       password: mysql
       # 使用druid数据源
       type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: com.mysql.jdbc.Driver
     bigdata:
-      url: jdbc:mysql://10.144.28.178:3306/test?useUnicode=true&characterEncoding=utf8
+      url: jdbc:mysql://url:3306/test?useUnicode=true&characterEncoding=utf8
       username: root
       password: root
       # 使用druid数据源
