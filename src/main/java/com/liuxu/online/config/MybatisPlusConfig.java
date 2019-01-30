@@ -18,12 +18,7 @@ import com.baomidou.mybatisplus.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
 
 
-/**
- * @ClassName: MybatisPlusConfig
- * @Description: mybatis plus 插件全局配置
- * @author likaile
- * @date 2018年4月28日 上午10:51:47
- */
+
 @Configuration
 @MapperScan(basePackages = "com.liuxu.online.mapper.order*", sqlSessionTemplateRef = "orderSqlSessionTemplate")
 public class MybatisPlusConfig {

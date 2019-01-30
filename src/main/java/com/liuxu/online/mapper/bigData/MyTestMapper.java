@@ -11,14 +11,7 @@ import com.liuxu.online.entity.MyScore;
 import com.liuxu.online.entity.MyTest;
 
 
-/**
- * <p>
- * 发生单表 Mapper 接口
- * </p>
- *
- * @author likaile
- * @since 2018-07-30
- */
+
 public interface MyTestMapper extends BaseMapper<MyTest> {
 
 	@Select("select * from my_test ")
